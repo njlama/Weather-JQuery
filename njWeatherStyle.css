@@ -1,0 +1,65 @@
+body {
+    background: linear-gradient(-180deg, red, #ffae00);
+}
+.row {
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+    height: 90vh;
+    box-shadow: 10px 10px 5px 0 rgba(0, 0, 0, 0.2);
+}
+.col-4 {
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    width: 500px;   
+}
+
+.text {
+    font-family: 'Tangerine', serif;
+    font-size: 54px;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    
+}
+
+.col-8 {
+    background-color: rgb(59, 56, 56);
+}
+
+.getWeatherDiv {
+    padding: 100px 25px;
+    padding-bottom: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+input#city, input#country {
+    border: none;
+    border-bottom: 2px solid red;
+    outline: none;
+    font-size: 15px;
+}
+
+input[type=text]{
+    color: white;
+}
+
+
+hr {
+    border-top: 1px solid grey;
+    margin-left: 22px;
+    margin-top: 8px;
+}
+
+input.staticInput {
+    border: none;
+    outline: none;
+    background-color: transparent;
+    margin-left: 10px;
+}
+
+
+
